@@ -1,0 +1,181 @@
+/*******************TAG SELECTORS*******************/
+body {
+  color: #40514E;
+  font-family: 'Merriweather', serif;;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: rgb(83, 83, 177);
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+h1 {
+  color: #EAF6F6;
+  font-family: 'Roboto', sans-serif;
+  font-size: 5rem;
+  margin: 30px auto 0 auto;
+}
+
+h2 {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: dotted #242582 10px;
+  border-bottom: none;
+  margin: auto;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+
+span {
+  text-decoration: underline;
+}
+
+/*******************CLASS SELECTORS*******************/
+.bottom-container {
+  background-color: #242582;
+  padding: 50px 0 20px;
+}
+
+.bottom-container > p {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #242582;
+  border: solid #242582 1px;
+  border-radius: 10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 34px 0 80px 0;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.btn:hover {
+  background: #2F2FA2;
+  border: solid #2F2FA2 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact-me > h2 {
+  color: #242582;
+  margin-top: 80px;
+}
+
+.contact-me > h3 {
+  color: #2F2FA2
+}
+
+.contact-me > p {
+  margin: 40px auto 40px;
+  width: 40%;
+}
+
+.personal-image {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.personal-skills {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.personal-skills > h3 {
+  color: #2F2FA2;
+}
+
+.personal-skills > ul {
+  line-height: 2;
+}
+
+.profile > h2 {
+  color: #242582
+}
+
+.profile > img {
+  width: 12.5%;
+  padding-top: 45px;
+}
+
+.profile > p {
+  margin: auto auto 80px auto;
+  width: 40%;
+}
+
+.skills > h2 {
+  color: #242582;
+  margin-top: 80px;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.technical-image {
+  float: left;
+  margin: 0 30px 0 0;
+  width: 25%;
+}
+
+.technical-skills {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.technical-skills > h3 {
+  color: #2F2FA2;
+}
+
+.technical-skills > ul {
+  padding-left: 220px;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 325px;
+  top: 50px;
+}
+
+.top-container {
+  background-color: #242582;
+  padding: 50px 0 50px;
+  position: relative;
+}
